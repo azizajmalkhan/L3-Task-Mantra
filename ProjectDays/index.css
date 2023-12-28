@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input, textarea, button {
+    margin-bottom: 10px;
+    border-radius: 3px; /* Small border radius for a slightly rounded shape */
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+}
+.borderone
+{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    border-radius: 3px; /* Small border radius for a slightly rounded shape */
+}
+#datePicker
+{
+    margin-left: 550px
+}
+#description {
+    width: 75%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.borderone{
+    padding-right: 30px;
+    margin: 20px;
+}
+#b1
+{
+    margin-left: 100px;
+}
+th {
+    background-color: #f2f2f2;
+}
+
+.weekday {
+    font-size: 18px; /* Adjust the font size as needed */
+    width: 100px;    /* Adjust the width as needed */
+    height: 40px;    /* Adjust the height as needed */
+    padding: 10px;    /* Adjust padding for better appearance */
+    margin-right: 5px;
+    background-color: #d9e1e38f;
+    color: rgb(11, 10, 10);
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+form {
+    margin-bottom: 20px;
+}
+
+.highlight {
+    background-color: #c0c0c0;
+    border-radius: 3px; /* Small border radius for a slightly rounded shape */
+}
+
+#outputDisplay {
+    margin-top: 20px;
+}
+
+input[type=text] {
+    color: red;
+    background-color: aqua;
+}
+
+input[type=date] {
+    color: orange;
+}

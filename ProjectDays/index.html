@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Date Selection and Data Display</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    
+</head>
+<body>
+    
+
+    <!-- New section for displaying output -->
+
+    <!-- Your existing table -->
+    <table>
+        <tr>
+            <th>
+                <div class="borderone">
+                    <label for="title"></label>
+                    <input type="text" id="title" name="title" placeholder="Title">
+                    <input type="date" id="datePicker" onclick="updateMinDate()">
+                    <label for="description"></label>
+                    <textarea id="description" name="description" placeholder="Description"></textarea>
+                    <button id="b1" onclick="saveData()">Save</button>
+                </div> 
+                
+            </th>
+        </tr>
+    </table>
+	
+	
+	<div>
+        <b><button class="weekday">SUN</button></b>
+        <b><button class="weekday">MON</button></b>
+        <b><button class="weekday">TUE</button></b>
+        <b><button class="weekday">WED</button></b>
+        <b><button class="weekday">THU</button></b>
+        <b><button class="weekday">FRI</button></b>
+        <b><button class="weekday">SAT</button></b>
+        <button class="weekday">SAT</button>
+    </div>
+
+    <div id="outputDisplay">
+        <!-- Output will be displayed here -->
+    </div>
+	<table id="HEA">
+        
+    </table>
+
+</body>
+</html>
